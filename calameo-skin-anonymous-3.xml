@@ -56,7 +56,7 @@
   </layout>
 
   <!-- Bottom-right toolbar -->
-  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" bottom="32" right="32" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
+  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" bottom="78" right="32" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
     <button action="zoomIn" upState="gridAnonymous#121,8,42,42" overState="gridAnonymous#121,64,42,42" downState="gridAnonymous#121,120,42,42" disabledState="gridAnonymous#121,176,42,42">
       <![CDATA[Zoomer]]>
     </button>
