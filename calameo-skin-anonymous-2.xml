@@ -3,6 +3,7 @@
   <!--    Assets    -->
   <media name="arrows" source="/assets/img/calameo/navigation-arrows.svg"/>
   <media name="gridAnonymous" source="https://raw.githubusercontent.com/asurare/calameo/refs/heads/main/assets/img/calameo/grid-anonymous.svg"/>
+  <media name="gridLycee" source="https://raw.githubusercontent.com/asurare/calameo/refs/heads/main/assets/img/calameo/grid-lycee.svg"/>
   <media name="skin" source="https://v.calameo.com/pinwheel/skin/2.1/2021/assets.png"/>
 
   <!--    Behaviors    -->
@@ -38,10 +39,19 @@
     </button>
   </layout>
 
+  <!-- LEFT TOP WIDTH HEIGHT -->
+
   <!-- Top-left toolbar -->
   <layout behaviors="hide-below-840" showonview="book,slide" depth="1" top="32" left="32" height="42" orientation="horizontal" alignment="left,middle">
     <button action="toc" upState="gridAnonymous#8,8,42,42" overState="gridAnonymous#8,64,42,42" downState="gridAnonymous#8,120,42,42" disabledState="gridAnonymous#8,176,42,42">
       <![CDATA[Sommaire]]>
+    </button>
+  </layout>
+
+  <!-- Top-right toolbar -->
+  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" top="32" right="64" height="42" orientation="horizontal" alignment="right,top">
+    <button action="fullscreen" upState="gridLycee#288,8,42,42" overState="gridAnonymous#288,64,42,42" downState="gridAnonymous#288,120,42,42" disabledState="gridAnonymous#288,176,42,42">
+      <![CDATA[Plein écran]]>
     </button>
   </layout>
 
