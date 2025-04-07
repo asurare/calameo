@@ -2,7 +2,7 @@
 <root xmlns="http://skin.calameo.com/2.0">
   <!--    Assets    -->
   <media name="arrows" source="/assets/img/calameo/navigation-arrows.svg"/>
-  <media name="gridAnonymous" source="https://github.com/asurare/calameo/blob/main/assets/img/calameo/grid-anonymous.svg"/>
+  <media name="gridAnonymous" source="https://raw.githubusercontent.com/asurare/calameo/refs/heads/main/assets/img/calameo/grid-anonymous.svg"/>
   <media name="skin" source="https://v.calameo.com/pinwheel/skin/2.1/2021/assets.png"/>
 
   <!--    Behaviors    -->
