@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "OpenSans", Helvetica, Arial;
+  text-rendering: optimizelegibility;
+  font-smooth: unset;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Dyslexic * {
+  font-family: 'OpenDyslexic', Helvetica!important;
+}
+
+.No_fs_close #fullscreen-modal-close {
+  display: none!important;
+}
+
+
+
+

@@ -1,0 +1,264 @@
+
+/* do not edit, automatically generated */
+  
+  @font-face {
+    font-family: OpenDyslexic;
+    src: url('/assets/fonts/opendyslexic-regular.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: OpenDyslexic;
+    src: url('/assets/fonts/opendyslexic-italic.otf') format('opentype');
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: OpenDyslexic;
+    src: url('/assets/fonts/opendyslexic-bold.otf') format('opentype');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: OpenDyslexic;
+    src: url('/assets/fonts/opendyslexic-bolditalic.otf') format('opentype');
+    font-style: italic;
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: OpenDyslexicMono;
+    src: url('/assets/fonts/opendyslexicmono-regular.woff2') format('woff2'),
+      url('/assets/fonts/opendyslexicmono-regular.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: Sabon;
+    src:
+     url('/assets/fonts/SabonLTPro-Roman.woff2') format('woff2'),
+      url('/assets/fonts/SabonLTPro-Roman.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: Sabon;
+    src:
+      url('/assets/fonts/SabonLTPro-Italic.woff2') format('woff2'),
+      url('/assets/fonts/SabonLTPro-Italic.otf') format('opentype');
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: Sabon;
+    src:
+      url('/assets/fonts/SabonLTPro-Bold.woff2') format('woff2'),
+      url('/assets/fonts/SabonLTPro-Bold.otf') format('opentype');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: Sabon;
+    src:
+      url('/assets/fonts/SabonLTPro-BoldItalic.woff2') format('woff2'),
+      url('/assets/fonts/SabonLTPro-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: LatoWeb;
+    src:
+      url('/assets/fonts/Lato-Regular.woff2') format('woff2'),
+      url('/assets/fonts/Lato-Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: LatoWeb;
+    src:
+      url('/assets/fonts/Lato-Italic.woff2') format('woff2'),
+      url('/assets/fonts/Lato-Italic.ttf') format('truetype');
+    font-style: italic;
+  }
+
+
+  @font-face {
+    font-family: LatoWeb;
+    src:
+      url('/assets/fonts/Lato-Bold.woff2') format('woff2'),
+      url('/assets/fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+
+
+  @font-face {
+    font-family: LatoWeb;
+    src:
+      url('/assets/fonts/Lato-BoldItalic.woff2') format('woff2'),
+      url('/assets/fonts/Lato-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 700;
+  }
+
+
+  @font-face {
+    font-family: LatoWeb;
+    src:
+      url('/assets/fonts/Lato-Heavy.woff2') format('woff2'),
+      url('/assets/fonts/Lato-Heavy.ttf') format('truetype');
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-family: LatoWeb;
+    src:
+      url('/assets/fonts/Lato-HeavyItalic.woff2') format('woff2'),
+      url('/assets/fonts/Lato-HeavyItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-family: LatoWeb;
+    src:
+      url('/assets/fonts/Lato-Black.woff2') format('woff2'),
+      url('/assets/fonts/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+  }
+
+  @font-face {
+    font-family: LatoWeb;
+    src:
+      url('/assets/fonts/Lato-BlackItalic.woff2') format('woff2'),
+      url('/assets/fonts/Lato-BlackItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 900;
+  }
+
+  @font-face {
+    font-family: Stylo ;
+    src: url('/assets/fonts/Stylo-regular.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: Stylo ;
+    src: url('/assets/fonts/Stylo-bold.otf') format('opentype');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: LLSMontserrat;
+    src: url('/assets/fonts/LLS-Montserrat-Thin.ttf') format('truetype');
+    font-weight: lighter;
+  }
+  @font-face {
+    font-family: LLSMontserrat;
+    src: url('/assets/fonts/LLS-Montserrat-ThinItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+  @font-face {
+    font-family: LLSMontserrat;
+    src: url('/assets/fonts/LLS-Montserrat-Light.ttf') format('truetype');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: LLSMontserrat;
+    src: url('/assets/fonts/LLS-Montserrat-LightItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: LLSMontserrat;
+    src: url('/assets/fonts/LLS-Montserrat-Regular.ttf') format('truetype');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: LLSMontserrat;
+    src: url('/assets/fonts/LLS-Montserrat-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: LLSMontserrat;
+    src: url('/assets/fonts/LLS-Montserrat-Medium.ttf') format('truetype');
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: LLSMontserrat;
+    src: url('/assets/fonts/LLS-Montserrat-MediumItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: LLSMontserrat;
+    src: url('/assets/fonts/LLS-Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 800;
+  }
+  @font-face {
+    font-family: LLSMontserrat;
+    src: url('/assets/fonts/LLS-Montserrat-SemiBoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-family: LLSMontserrat;
+    src: url('/assets/fonts/LLS-Montserrat-Bold.ttf') format('truetype');
+    font-weight: 900;
+  }
+  @font-face {
+    font-family: LLSMontserrat;
+    src: url('/assets/fonts/LLS-Montserrat-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 900;
+  }
+
+  @font-face {
+    font-family: Caveat;
+    src: url('/assets/fonts/caveat-regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: Caveat;
+    src: url('/assets/fonts/caveat-bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: FiraMono;
+    src: url('/assets/fonts/firamono-regular.woff2') format('woff2'),
+      url('/assets/fonts/firamono-regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: FiraMono;
+    src: url('/assets/fonts/firamono-bold.woff2') format('woff2'),
+      url('/assets/fonts/firamono-bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: PermanentMarker;
+    src: url('/assets/fonts/permanent-marker-regular.woff2') format('woff2'),
+    url('/assets/fonts/permanent-marker-regular.ttf') format('truetype'),
+  }
+
+  @font-face {
+    font-family: Kalam;
+    src: url('/assets/fonts/kalam-regular.woff2') format('woff2'),
+      url('/assets/fonts/kalam-regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: Kalam;
+    src: url('/assets/fonts/kalam-bold.woff2') format('woff2'),
+      url('/assets/fonts/kalam-bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+
+  body {
+    font-variant-ligatures: none;
+  }
+
