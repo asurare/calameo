@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<root xmlns="http://skin.calameo.com/2.0">
+  <!--    Assets    -->
+  <media name="arrows" source="https://raw.githubusercontent.com/asurare/calameo/refs/heads/main/assets/img/calameo/navigation-arrows.svg"/>
+  <media name="gridAnonymous" source="https://raw.githubusercontent.com/asurare/calameo/refs/heads/main/assets/img/calameo/grid-anonymous.svg"/>
+  <media name="gridLycee" source="https://raw.githubusercontent.com/asurare/calameo/refs/heads/main/assets/img/calameo/grid-lycee.svg"/>
+  <media name="skin" source="https://v.calameo.com/pinwheel/skin/2.1/2021/assets.png"/>
+
+  <!--    Behaviors    -->
+  <!-- show below 840 px -->
+  <behavior name="hide-below-840" fx="screen" type="hide" orientation="horizontal" to="840"/>
+  <!-- hide below 840 px -->
+  <behavior name="hide-above-840" fx="screen" type="hide" orientation="horizontal" from="841"/>
+
+  <!-- Viewer -->
+  <viewer left="0" right="0" top="64" bottom="64" minLeft="90" minRight="90" />
+
+  <!--  Styles  -->
+  <styles>
+    <![CDATA[ views.page.shadow.size=0 ]]>
+  </styles>
+
+  <!-- Background -->
+  <layout top="0" left="0" percentWidth="100" percentHeight="100" backgroundColor="##F7FAFF" />
+
+
+  <!-- WIDTH GREATER THAN 840px  -->
+  <!-- Previous page -->
+  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" left="-74" verticalCenter="-21" reference="viewer">
+    <button action="left" upState="arrows#8,8,42,42" overState="arrows#8,64,42,42" downState="arrows#8,120,42,42" disabledState="arrows#8,180,42,42">
+      <![CDATA[Page précédente]]>
+    </button>
+  </layout>
+
+  <!-- Next page -->
+  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" right="-32" verticalCenter="-21" reference="viewer">
+    <button action="right" upState="arrows#64,8,42,42" overState="arrows#64,64,42,42" downState="arrows#64,120,42,42" disabledState="arrows#64,180,42,42">
+      <![CDATA[Page suivante]]>
+    </button>
+  </layout>
+
+  <!-- LEFT TOP WIDTH HEIGHT -->
+
+  <!-- Top-left toolbar -->
+  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" top="32" left="32" height="42" orientation="horizontal" alignment="left,middle">
+    <button action="toc" upState="gridAnonymous#8,8,42,42" overState="gridAnonymous#8,64,42,42" downState="gridAnonymous#8,120,42,42" disabledState="gridAnonymous#8,176,42,42">
+      <![CDATA[Sommaire]]>
+    </button>
+  </layout>
+
+  <!-- Top-right toolbar -->
+  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" top="32" right="78" height="42" orientation="horizontal" alignment="right,top">
+    <button action="fullscreen" upState="gridLycee#288,8,42,42" overState="gridLycee#288,64,42,42" downState="gridLycee#288,120,42,42" disabledState="gridLycee#288,176,42,42">
+      <![CDATA[Plein écran]]>
+    </button>
+  </layout>
+
+  <!-- Bottom-right toolbar -->
+  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" bottom="78" right="32" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
+    <button action="zoomIn" upState="gridAnonymous#121,8,42,42" overState="gridAnonymous#121,64,42,42" downState="gridAnonymous#121,120,42,42" disabledState="gridAnonymous#121,176,42,42">
+      <![CDATA[Zoomer]]>
+    </button>
+    <spacer size="8"/>
+    <button action="zoomOut" upState="gridAnonymous#176,8,42,42" overState="gridAnonymous#176,64,42,42" downState="gridAnonymous#176,120,42,42" disabledState="gridAnonymous#176,176,42,42">
+      <![CDATA[Dézoomer]]>
+    </button>
+  </layout>
+
+  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" bottom="38" right="128" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
+    <pageNumber color="#386694" size="16" />
+  </layout>
+
+  <!-- Bottom-right toolbar helpers -->
+  <layout behaviors="hide-below-840" showonview="book,slide,scroll" showonstate="zoom" right="24" bottom="232" orientation="vertical" spacer="0" depth="7" alignment="right,top">
+    <button action="zoomCursor" upState="skin#1020,0,60,60" overState="skin#1020,60,60,60" downState="skin#1020,120,60,60" disabledState="skin#0,0,0,0">
+      <![CDATA[Scroll automatique]]>
+    </button>
+    <button action="zoomDrag" upState="skin#1080,0,60,60" overState="skin#1080,60,60,60" downState="skin#1080,120,60,60" disabledState="skin#0,0,0,0">
+      <![CDATA[Scroll manuel]]>
+    </button>
+  </layout>
+  <layout behaviors="hide-below-840" showonview="book,slide,scroll" right="80" bottom="32" orientation="vertical" spacer="0" depth="7" alignment="right,bottom">
+    <button action="audioPause" upState="skin#900,0,60,60" overState="skin#900,60,60,60" downState="skin#900,120,60,60" disabledState="skin#0,0,0,0"/>
+    <button action="audioPlay" upState="skin#960,0,60,60" overState="skin#960,60,60,60" downState="skin#960,120,60,60" disabledState="skin#0,0,0,0"/>
+  </layout>
+
+  <!-- WIDTH LESS THAN OR EQUAL 840px -->
+  <!-- Previous page -->
+  <layout behaviors="hide-above-840" showonview="book,slide" depth="1" left="-47" verticalCenter="-21" reference="viewer">
+    <button action="left" upState="arrows#8,8,42,42" overState="arrows#8,64,42,42" downState="arrows#8,120,42,42" disabledState="arrows#8,180,42,42">
+      <![CDATA[Page précédente]]>
+    </button>
+  </layout>
+
+  <!-- Next page -->
+  <layout behaviors="hide-above-840" showonview="book,slide" depth="1" right="-5" verticalCenter="-21" reference="viewer">
+    <button action="right" upState="arrows#64,8,42,42" overState="arrows#64,64,42,42" downState="arrows#64,120,42,42" disabledState="arrows#64,180,42,42">
+      <![CDATA[Page suivante]]>
+    </button>
+  </layout>
+
+  <!-- Top-left toolbar -->
+  <layout behaviors="hide-above-840" showonview="book,slide" depth="1" top="16" left="16" height="42" orientation="horizontal" alignment="left,middle">
+    <button action="toc" upState="gridAnonymous#8,8,42,42" overState="gridAnonymous#8,64,42,42" downState="gridAnonymous#8,120,42,42" disabledState="gridAnonymous#8,176,42,42">
+      <![CDATA[Sommaire]]>
+    </button>
+  </layout>
+
+  <!-- Bottom-right toolbar -->
+  <layout behaviors="hide-above-840" showonview="book,slide" depth="1" bottom="16" right="16" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
+    <button action="zoomIn" upState="gridAnonymous#121,8,42,42" overState="gridAnonymous#121,64,42,42" downState="gridAnonymous#121,120,42,42" disabledState="gridAnonymous#121,176,42,42">
+      <![CDATA[Zoomer]]>
+    </button>
+    <spacer size="8"/>
+    <button action="zoomOut" upState="gridAnonymous#176,8,42,42" overState="gridAnonymous#176,64,42,42" downState="gridAnonymous#176,120,42,42" disabledState="gridAnonymous#176,176,42,42">
+      <![CDATA[Dézoomer]]>
+    </button>
+  </layout>
+
+  <!-- Bottom-right toolbar helpers -->
+  <layout behaviors="hide-above-840" showonview="book,slide,scroll" showonstate="zoom" right="8" bottom="170" orientation="vertical" spacer="0" depth="7" alignment="right,top">
+    <button action="zoomCursor" upState="skin#1020,0,60,60" overState="skin#1020,60,60,60" downState="skin#1020,120,60,60" disabledState="skin#0,0,0,0">
+      <![CDATA[Scroll automatique]]>
+    </button>
+    <button action="zoomDrag" upState="skin#1080,0,60,60" overState="skin#1080,60,60,60" downState="skin#1080,120,60,60" disabledState="skin#0,0,0,0">
+      <![CDATA[Scroll manuel]]>
+    </button>
+  </layout>
+  <layout behaviors="hide-below-840" showonview="book,slide,scroll" right="80" bottom="16" orientation="vertical" spacer="0" depth="7" alignment="right,bottom">
+    <button action="audioPause" upState="skin#900,0,60,60" overState="skin#900,60,60,60" downState="skin#900,120,60,60" disabledState="skin#0,0,0,0"/>
+    <button action="audioPlay" upState="skin#960,0,60,60" overState="skin#960,60,60,60" downState="skin#960,120,60,60" disabledState="skin#0,0,0,0"/>
+  </layout>
+
+
+  <!--    Branding    -->
+  <branding showonview="book,slide,scroll,thumbnails" alignment="left,bottom" depth="1" left="4" bottom="4"/>
+
+</root>
