@@ -18,6 +18,7 @@
   <!--  Styles  -->
   <styles>
     <![CDATA[ views.page.shadow.size=0 ]]>
+    common.text.size=16
   </styles>
 
   <!-- Background -->
