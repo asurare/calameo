@@ -67,7 +67,7 @@
   </layout>
 
   <!-- Bottom-right toolbar helpers -->
-  <layout behaviors="hide-below-840" showonview="book,slide,scroll" showonstate="zoom" right="24" bottom="228" orientation="vertical" spacer="0" depth="7" alignment="right,top">
+  <layout behaviors="hide-below-840" showonview="book,slide,scroll" showonstate="zoom" right="24" bottom="232" orientation="vertical" spacer="0" depth="7" alignment="right,top">
     <button action="zoomCursor" upState="skin#1020,0,60,60" overState="skin#1020,60,60,60" downState="skin#1020,120,60,60" disabledState="skin#0,0,0,0">
       <![CDATA[Scroll automatique]]>
     </button>
