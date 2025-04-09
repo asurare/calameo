@@ -66,7 +66,7 @@
     </button>
   </layout>
 
-  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" bottom="38" right="64" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
+  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" bottom="38" right="128" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
     <pageNumber />
   </layout>
 
