@@ -66,8 +66,8 @@
     </button>
   </layout>
 
-  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" bottom="38" right="128" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
-    <pageNumber color="#386694" />
+  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" bottom="38" right="148" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
+    <pageNumber color="#386694" size="16" />
   </layout>
 
   <!-- Bottom-right toolbar helpers -->
