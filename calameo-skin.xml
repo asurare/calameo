@@ -53,6 +53,9 @@
     <button action="fullscreen" upState="gridLycee#288,8,42,42" overState="gridLycee#288,64,42,42" downState="gridLycee#288,120,42,42" disabledState="gridLycee#288,176,42,42">
       <![CDATA[Plein écran]]>
     </button>
+    <button action="search" upState="gridLycee#232,8,42,42" overState="gridLycee#232,64,42,42" downState="gridLycee#232,120,42,42" disabledState="gridLycee#232,176,42,42">
+      <![CDATA[Rechercher]]>
+    </button>
   </layout>
 
   <!-- Bottom-right toolbar -->
