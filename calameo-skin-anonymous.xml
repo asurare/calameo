@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <root xmlns="http://skin.calameo.com/2.0">
   <!--    Assets    -->
-  <media name="arrows" source="/assets/img/calameo/navigation-arrows.svg"/>
+  <media name="arrows" source="https://raw.githubusercontent.com/asurare/calameo/refs/heads/main/assets/img/calameo/navigation-arrows.svg"/>
   <media name="gridAnonymous" source="https://raw.githubusercontent.com/asurare/calameo/refs/heads/main/assets/img/calameo/grid-anonymous.svg"/>
   <media name="gridLycee" source="https://raw.githubusercontent.com/asurare/calameo/refs/heads/main/assets/img/calameo/grid-lycee.svg"/>
   <media name="skin" source="https://v.calameo.com/pinwheel/skin/2.1/2021/assets.png"/>
@@ -48,12 +48,14 @@
     </button>
   </layout>
 
-  <!-- Top-right toolbar -->
-  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" top="32" right="78" height="42" orientation="horizontal" alignment="right,top">
-    <button action="fullscreen" upState="gridLycee#288,8,42,42" overState="gridLycee#288,64,42,42" downState="gridLycee#288,120,42,42" disabledState="gridLycee#288,176,42,42">
-      <![CDATA[Plein écran]]>
-    </button>
-  </layout>
+  <!--
+    &lt;!&ndash; Top-right toolbar &ndash;&gt;
+    <layout behaviors="hide-below-840" showonview="book,slide" depth="1" top="32" right="78" height="42" orientation="horizontal" alignment="right,top">
+      <button action="fullscreen" upState="gridLycee#288,8,42,42" overState="gridLycee#288,64,42,42" downState="gridLycee#288,120,42,42" disabledState="gridLycee#288,176,42,42">
+        <![CDATA[Plein écran]]>
+      </button>
+    </layout>
+  -->
 
   <!-- Bottom-right toolbar -->
   <layout behaviors="hide-below-840" showonview="book,slide" depth="1" bottom="78" right="32" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
@@ -66,8 +68,8 @@
     </button>
   </layout>
 
-  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" bottom="38" right="180" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
-    <pageNumber />
+  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" bottom="38" right="128" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
+    <pageNumber color="#386694" size="16" />
   </layout>
 
   <!-- Bottom-right toolbar helpers -->

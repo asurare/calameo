@@ -48,14 +48,14 @@
     </button>
   </layout>
 
-<!--
-  &lt;!&ndash; Top-right toolbar &ndash;&gt;
-  <layout behaviors="hide-below-840" showonview="book,slide" depth="1" top="32" right="78" height="42" orientation="horizontal" alignment="right,top">
-    <button action="fullscreen" upState="gridLycee#288,8,42,42" overState="gridLycee#288,64,42,42" downState="gridLycee#288,120,42,42" disabledState="gridLycee#288,176,42,42">
-      <![CDATA[Plein écran]]>
-    </button>
-  </layout>
--->
+  <!--
+    &lt;!&ndash; Top-right toolbar &ndash;&gt;
+    <layout behaviors="hide-below-840" showonview="book,slide" depth="1" top="32" right="78" height="42" orientation="horizontal" alignment="right,top">
+      <button action="fullscreen" upState="gridLycee#288,8,42,42" overState="gridLycee#288,64,42,42" downState="gridLycee#288,120,42,42" disabledState="gridLycee#288,176,42,42">
+        <![CDATA[Plein écran]]>
+      </button>
+    </layout>
+  -->
 
   <!-- Bottom-right toolbar -->
   <layout behaviors="hide-below-840" showonview="book,slide" depth="1" bottom="78" right="32" height="100" orientation="vertical" alignment="right,bottom" spacer="0">
